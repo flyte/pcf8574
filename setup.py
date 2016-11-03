@@ -25,22 +25,7 @@ def required(fname):
 setup(
     name="pcf8574",
     version="0.0.1",
-    packages=find_packages(
-        exclude=[
-            "*.tests",
-            "*.tests.*",
-            "tests.*",
-            "tests",
-            "*.ez_setup",
-            "*.ez_setup.*",
-            "ez_setup.*",
-            "ez_setup",
-            "*.examples",
-            "*.examples.*",
-            "examples.*",
-            "examples"
-        ]
-    ),
+    packages=("pcf8574",),
     scripts=[],
     entry_points={},
     include_package_data=True,
