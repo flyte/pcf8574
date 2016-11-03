@@ -1,7 +1,7 @@
 PCF8574
 =======
 
-This is a Python library for use with the [PCF8574](http://www.nxp.com/documents/data_sheet/PCF8574.pdf) I2C IO expander chip. It abstracts the 8 bit IO port as a Python list, and allows the read/writing of individual pins or all ports at once.
+This is a Python library for use with the [PCF8574](http://www.nxp.com/documents/data_sheet/PCF8574.pdf) I2C IO expander chip. It abstracts the 8 bit IO port as a Python list, and allows the read/writing of individual pins or the whole port at once.
 
 ## Installation
 
