@@ -24,7 +24,7 @@ def required(fname):
 
 setup(
     name="pcf8574",
-    version="0.0.3",
+    version="0.0.4",
     packages=("pcf8574",),
     scripts=[],
     entry_points={},
