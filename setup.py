@@ -37,7 +37,8 @@ setup(
     # Metadata for upload to PyPI
     author='Ellis Percival',
     author_email="pcf8574@failcode.co.uk",
-    description=fill(dedent("""\
+    description="Library for communication with PCF8574 IO expander over I2C",
+    long_description=fill(dedent("""\
         This is a library which can be used to communicate with one or many
         pcf8574 IO expander ICs over an I2C interface.
     """)),
