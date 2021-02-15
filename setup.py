@@ -21,7 +21,7 @@ def required(fname):
 
 setup(
     name="pcf8574",
-    version="0.1.0",
+    version="0.1.1",
     packages=("pcf8574",),
     package_data={"pcf8574": ["py.typed"]},
     scripts=[],
