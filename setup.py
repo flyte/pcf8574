@@ -28,6 +28,7 @@ setup(
     author_email="pcf8574@failcode.co.uk",
     description="Library for communication with PCF8574 IO expander over I2C",
     long_description=required("README.md"),
+    long_description_content_type="text/markdown",
     classifiers=[
         "Programming Language :: Python",
         "Intended Audience :: Developers",
