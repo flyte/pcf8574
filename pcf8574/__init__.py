@@ -109,3 +109,6 @@ class PCF8574:
         assert pin_number in range(8), "Pin number must be an integer between 0 and 7"
         state = self.bus.read_byte(self.address)
         return bool(state & 1 << 7 - pin_number)
+
+    def close(self):
+        self.bus.close()
