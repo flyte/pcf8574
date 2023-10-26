@@ -40,4 +40,6 @@ Out[10]: False
 
 In [11]: pcf.port[6]
 Out[11]: True
+
+In [11]: pcf.close()
 ```
